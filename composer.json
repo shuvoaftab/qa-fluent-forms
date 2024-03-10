@@ -1,0 +1,28 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Tests\\" : "tests/"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.0",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "^3.0",
+        "codeception/module-webdriver": "^3.2",
+        "codeception/module-db": "^3.1",
+        "fakerphp/faker": "^1.23",
+        "mailchimp/marketing": "^3.0",
+        "mashape/unirest-php": "^3.0",
+        "codeception/module-cli": "^2.0",
+        "testomatio/list-tests": "^0.2.3"
+    },
+  "require": {
+        "ext-curl": "*",
+        "doctrine/orm": "^2.15",
+        "vlucas/phpdotenv": "^5.5",
+        "google/apiclient": "^2.15",
+        "ext-json": "*",
+        "hackzilla/password-generator": "^1.6",
+        "ext-zlib": "*"
+  }
+}
